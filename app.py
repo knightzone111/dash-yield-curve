@@ -4,12 +4,12 @@ import os
 
 import pandas as pd
 import numpy as np
-import plotly.plotly as py
+import chart_studio.plotly as py
 
 import flask
 from flask_cors import CORS
 import dash
-from dash.dependencies import Input, Output, State, Event
+from dash.dependencies import Input, Output, State
 import dash_core_components as dcc
 import dash_html_components as html
 
